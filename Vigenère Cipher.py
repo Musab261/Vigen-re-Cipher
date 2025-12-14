@@ -79,7 +79,7 @@ def decode_text():
     decoded_box.insert(tk.END, decoded_text)
 
 root = tk.Tk()
-root.title("Vigenère Cipher (Table Method)")
+root.title("Vigenère Cipher")
 
 tk.Label(root, text="Enter Text:").pack()
 input_text = scrolledtext.ScrolledText(root, height=8, width=100)
